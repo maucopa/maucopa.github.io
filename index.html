@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        #container {
+            display: flex;
+            justify-content: space-between;
+            background-color: lightgray;
+            padding: 20px;
+        }
+
+        #owner-info {
+            flex: 1;
+        }
+
+        #owner-info img {
+            border-radius: 50%;
+            max-width: 150px;
+        }
+
+        #owner-info h1 {
+            font-weight: bold;
+        }
+
+        .contact-icons {
+            font-size: 24px;
+            color: #0074b3;
+        }
+
+        #about {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .skills {
+            background-color: #0074b3;
+            color: #13293d;
+            padding: 5px 10px;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 5px;
+        }
+
+        #projects {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project img {
+            max-width: 100%;
+        }
+
+        .project-title {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="owner-info">
+            <img src="your-profile-photo.jpg" alt="Owner's Photo">
+            <h1>Your Name</h1>
+            <p>Position</p>
+            <p>Based in Location</p>
+            <a href="https://www.linkedin.com/your-profile" class="contact-icons"><i class="fa fa-linkedin"></i></a>
+            <a href="mailto:youremail@example.com" class="contact-icons"><i class="fa fa-envelope"></i></a>
+        </div>
+        <div id="about">
+            <h2>About</h2>
+            <p>Your about section goes here.</p>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <h3 class="project-title">Project 1</h3>
+            <p class="skills">Skill 1</p>
+            <p class="skills">Skill 2</p>
+            <p>Project 1 summary goes here.</p>
+        </div>
+
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <h3 class="project-title">Project 2</h3>
+            <p class="skills">Skill 1</p>
+            <p class="skills">Skill 2</p>
+            <p>Project 2 summary goes here.</p>
+        </div>
+        <!-- Add more project sections as needed -->
+    </div>
+</body>
+</html>
